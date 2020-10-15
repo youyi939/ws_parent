@@ -1,6 +1,9 @@
 package service;
 
+import ken.entitis.User;
+
 import javax.jws.WebService;
+import java.util.List;
 
 /**
  * @version 1.0
@@ -11,4 +14,5 @@ import javax.jws.WebService;
 @WebService
 public interface HelloWs {
     public String sayHelloWs(String str);
+    public List<User> findAllUser();
 }

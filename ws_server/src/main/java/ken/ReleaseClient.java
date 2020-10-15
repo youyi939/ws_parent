@@ -1,6 +1,10 @@
+package ken;
 import org.apache.cxf.jaxws.JaxWsServerFactoryBean;
 import service.HelloWs;
 import service.impl.HelloWsImpl;
+
+
+import javax.xml.ws.Endpoint;
 
 /**
  * @version 1.0
@@ -22,5 +26,10 @@ public class ReleaseClient {
         jaxWsServerFactoryBean.setServiceBean(helloWs);
         jaxWsServerFactoryBean.create();
         System.out.println("WS 服务端 started~~~~~~~");
+
+//        Endpoint.publish(address,helloWs);
+
     }
 }
+
+
