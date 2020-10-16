@@ -11,7 +11,7 @@ import java.util.List;
  * @date 2020/10/15 1:52 下午
  */
 
-@WebService
+//@WebService
 public interface HelloWs {
     public String sayHelloWs(String str);
     public List<User> findAllUser();

@@ -12,7 +12,7 @@ import java.util.List;
  * @author: KenChen
  * @date 2020/10/15 1:53 下午
  */
-@WebService
+//@WebService
 public class HelloWsImpl implements HelloWs {
     @Override
     public String sayHelloWs(String str) {
